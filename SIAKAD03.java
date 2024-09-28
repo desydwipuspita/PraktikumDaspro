@@ -26,35 +26,35 @@ public class SIAKAD03 {
         // Menentukan nilai huruf dan kualifikasi
         String nilaiHuruf;
         String kualifikasi;
-        double nilaiMutu;
+        double nilaiSetara;
         
         if (nilaiAkhir >= 80 && nilaiAkhir <= 100) {
             nilaiHuruf = "A";
-            nilaiMutu = 4.0;
+            nilaiSetara = 4.0;
             kualifikasi = "Sangat Baik";
         } else if (nilaiAkhir >= 73 && nilaiAkhir < 80) {
             nilaiHuruf = "B+";
-            nilaiMutu = 3.5;
+            nilaiSetara = 3.5;
             kualifikasi = "Lebih dari Baik";
         } else if (nilaiAkhir >= 65 && nilaiAkhir < 73) {
             nilaiHuruf = "B";
-            nilaiMutu = 3.0;
+            nilaiSetara = 3.0;
             kualifikasi = "Baik";
         } else if (nilaiAkhir >= 60 && nilaiAkhir < 65) {
             nilaiHuruf = "C+";
-            nilaiMutu = 2.5;
+            nilaiSetara = 2.5;
             kualifikasi = "Lebih dari Cukup";
         } else if (nilaiAkhir >= 50 && nilaiAkhir < 60) {
             nilaiHuruf = "C";
-            nilaiMutu = 2.0;
+            nilaiSetara = 2.0;
             kualifikasi = "Cukup";
         } else if (nilaiAkhir >= 39 && nilaiAkhir < 50) {
             nilaiHuruf = "D";
-            nilaiMutu = 1.0;
+            nilaiSetara = 1.0;
             kualifikasi = "Kurang";
         } else {
             nilaiHuruf = "E";
-            nilaiMutu = 0.0;
+            nilaiSetara = 0.0;
             kualifikasi = "Gagal";
         }
         
